@@ -2,7 +2,7 @@ import logo from '../assets/logo.svg'
 
 export default function Header(){
     return(
-        <div className="flex col justify-between mx-auto h-16 container bg-white/50 mt-1">
+        <div className="flex col justify-between mx-auto h-16 container bg-white/50 mt-1 fixed top-0 right-2 left-2">
             <a className="flex flex-row items-center cursor-pointer gap-2">
                 <img src={logo} className="h-8"></img>
                 <span className="font-bold text-xl text-primary">AIAI</span>
