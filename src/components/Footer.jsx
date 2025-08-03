@@ -2,7 +2,8 @@ import logo from '../assets/logo.svg'
 
 export default function Footer(){
     return (
-        <div className="flex h-16 container mx-auto justify-between items-center">
+        <div className="border-t-[1px] border-gray-300 pt-4">
+            <div className="flex h-16 container mx-auto justify-between items-center">
             <a className="flex flex-row items-center cursor-pointer gap-2 container mx-auto">
                 <img src={logo} className="h-8"></img>
                 <span className="font-bold text-xl text-primary">AIAI</span>
@@ -14,6 +15,8 @@ export default function Footer(){
                 <li><a href="" className="text-primary/60 hover:text-black cursor-pointer">Liên hệ</a></li>
                 <li><span className="text-primary/60">© 2025 AIAI. All rights reserved.</span></li>
             </ul>
+            </div>
         </div>
+        
     )
 }

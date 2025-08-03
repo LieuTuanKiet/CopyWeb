@@ -5,7 +5,7 @@ import Random2 from '../assets/RandomImg2.jpg'
 
 export default function Team(){
     return(
-        <div className="my-32 py-32">
+        <div className="my-32">
             <div className="flex flex-col justify-center items-center mb-20">
                 <div className="relative h-20">
                     <div className="bg-pink-600 blur-lg w-8 h-10 absolute"></div>
