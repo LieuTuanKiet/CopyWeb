@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Research from './components/Research'
 import Project from './components/Project'
+import Team from './components/Team'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
     <Home />
     <Research />
     <Project />
+    <Team />
     <Footer />
   </StrictMode>,
 )
