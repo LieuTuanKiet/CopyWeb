@@ -2,6 +2,35 @@ import An from '../assets/NguyenHuuAn.jpg'
 import Dat from '../assets/DinhTienDat.png'
 import Random1 from '../assets/RandomImg.png'
 import Random2 from '../assets/RandomImg2.jpg'
+import TeamMember from './TeamMember'
+
+const members=[
+    {
+        "avatar": Dat,
+        "name": "Đinh Tiến Đạt",
+        "role": "Lập trình viên"
+    },
+    {
+        "avatar": An,
+        "name": "Nguyễn Hữu An",
+        "role": "Cố vấn tối cao"
+    },
+    {
+        "avatar": Dat,
+        "name": "Đinh Tiến Đạt",
+        "role": "Lập trình viên"
+    },
+    {
+        "avatar": An,
+        "name": "Nguyễn Hữu An",
+        "role": "Cố vấn tối cao"
+    },
+    {
+        "avatar": Dat,
+        "name": "Đinh Tiến Đạt",
+        "role": "Lập trình viên"
+    },
+]
 
 export default function Team(){
     return(
@@ -22,7 +51,8 @@ export default function Team(){
                     công nghệ và nghiên cứu.
                 </p>
             </div>
-            <div className="flex flex-wrap container mx-auto w-full max-w-[900px] gap-x-16 gap-y-24 justify-center items-center">
+            <div className="grid grid-cols-3 container mx-auto w-full max-w-[900px] gap-x-16 gap-y-24">
+                {/*
                 <div className="flex flex-col justify-center items-center">
                     <div className="rounded-xl overflow-hidden mb-2">
                         <img src={Dat} className="aspect-square w-full max-w-[200px] object-cover rounded-xl hover:scale-105 duration-200 cursor-pointer"></img>
@@ -58,8 +88,17 @@ export default function Team(){
                     <p className="text-primary font-bold text-xl h-8">Đinh Tiến Đạt</p>
                     <p className="text-blue-500 font-semibold text-lg">Lập trình viên</p>
                 </div>
-                <div>
-                    <div className="relative bg-gray-100 min-w-[200px] min-h-[200px] -mt-16 rounded-xl hover:bg-gray-200 cursor-pointer duration-200">
+                */}
+                {members.map((member,index) => (
+                    <TeamMember 
+                        key={index}
+                        avatar={member.avatar}
+                        name={member.name}
+                        role={member.role}
+                    />
+                ))}
+                <div className="flex justify-center items-center">
+                    <div className="relative bg-gray-100 min-w-[200px] max-w-[200px] min-h-[200px] -mt-16 rounded-xl hover:bg-gray-200 cursor-pointer duration-200">
                         <img src={Random1} className="absolute aspect-square object-contain w-full h-full max-w-[40px] max-h-[40px] left-[75px] top-[75px] 
                             -translate-x-1/2 -translate-y-1/2 rounded-xl border-white border-2">
                         </img>

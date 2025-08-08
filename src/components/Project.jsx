@@ -1,6 +1,28 @@
 import froggit from '../assets/froggit.webp'
 import whale from '../assets/whale.webp'
 import vue from '../assets/vue.webp'
+import ProjectItem from './ProjectItem'
+
+const projects = [
+    {
+        "img": froggit,
+        "title": "Du An 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fugiat perferendis hic sequi consequatur sed nulla, officia sunt aliquid assumendam. Quis!",
+        "type": "AI"
+    },
+    {
+        "img": whale,
+        "title": "Du An 2",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fugiat perferendis hic sequi consequatur sed nulla, officia sunt aliquid assumendam. Quis!",
+        "type": "Application"
+    },
+    {
+        "img": vue,
+        "title": "Du An 3",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fugiat perferendis hic sequi consequatur sed nulla, officia sunt aliquid assumendam. Quis!",
+        "type": "Website"
+    },
+]
 
 export default function Project(){
     return(
@@ -21,7 +43,8 @@ export default function Project(){
                     cho cộng đồng và khách hàng.
                 </p>
             </div>
-            <div className="container mx-auto flex gap-x-6 mb-6">
+            <div className="container mx-auto grid grid-cols-3 gap-x-6 mb-6">
+                {/*
                 <div className="w-1/3 bg-white border-gray-300 border-[1px] rounded-xl p-6 group">
                     <div className="mb-4 overflow-hidden rounded-xl">
                         <img src={froggit} className="aspect-square rounded-xl h-52 w-full object-cover group-hover:scale-105 duration-200"></img>
@@ -61,6 +84,16 @@ export default function Project(){
                         <p className="text-pink-600 bg-pink-500/20 px-2 py-1 rounded-lg">Website</p>
                     </div>
                 </div>
+                */}
+                {projects.map((project,index) => (
+                    <ProjectItem 
+                        key={index}
+                        img={project.img}
+                        title={project.title}
+                        description={project.description}
+                        type={project.type}
+                    />
+                ))}
             </div>
             <div className="container mx-auto flex justify-center items-center">
                 <button className="bg-blue-500 text-white rounded-md px-6 py-2 font-bold text-lg shadow-blue-500/80 shadow-lg hover:scale-95 
