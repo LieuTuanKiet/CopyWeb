@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 export default function Header(){
     return(
-        <div className="flex col justify-between mx-auto h-16 container bg-white/50 fixed top-0 right-2 left-2 z-10">
+        <div className="flex col justify-between mx-auto h-16 container bg-white/90 fixed top-0 right-2 left-2 z-50">
             <a className="flex flex-row items-center cursor-pointer gap-2">
                 <img src={logo} className="h-8"></img>
                 <span className="font-bold text-xl text-primary">AIAI</span>

@@ -2,7 +2,7 @@ import img from '../assets/astro.webp'
 
 export default function Home(){
     return(
-        <div className="flex container mx-16 justify-center items-center mt-56 h-full pb-20">
+        <div className="flex container mx-auto justify-center items-center mt-56 h-full pb-20">
             <div className="w-1/2">
                 <p className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-pink-500 bg-clip-text 
                     text-transparent w-fit h-14">Đổi mới - Sáng tạo

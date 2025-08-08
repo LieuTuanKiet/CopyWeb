@@ -15,8 +15,8 @@ export default function Research(){
                 </p>
                 <p className="text-primary/60 font-semibold text-lg h-20">Chúng tôi tập trung vào các lĩnh vực nghiên cứu tiên tiến</p>
             </div>
-            <div className="flex container mx-auto flex-wrap w-11/12 justify-between">
-                <div className="bg-gradient-to-b from-blue-500/20 via-gray-100 to-white rounded-lg p-10 cursor-pointer hover:scale-105 duration-200">
+            <div className="flex container mx-auto flex-wrap w-11/12 gap-x-4 justify-center">
+                <div className="flex-1 bg-gradient-to-b from-blue-500/20 via-gray-100 to-white rounded-lg p-10 cursor-pointer hover:scale-105 duration-200">
                     <div className="relative h-16">
                         <div className="w-8 h-10 bg-blue-500 blur-lg absolute"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" 
@@ -30,11 +30,11 @@ export default function Research(){
                         </svg>
                     </div>
                     <p className="font-semibold text-primary text-3xl h-12">Trí tuệ nhân tạo</p>
-                    <p className="font-semibold text-primary/60 text-lg max-w-[320px]">Chúng tôi chuyên về trí tuệ nhân tạo, cung cấp các giải pháp AI 
+                    <p className="font-semibold text-primary/60 text-lg ">Chúng tôi chuyên về trí tuệ nhân tạo, cung cấp các giải pháp AI 
                         tiên tiến để tối ưu hóa quy trình kinh doanh và nâng cao hiệu suất.
                     </p>
                 </div>
-                <div className="bg-gradient-to-b from-blue-500/20 via-gray-100 to-white rounded-lg p-10 cursor-pointer hover:scale-105 duration-200">
+                <div className="flex-1 bg-gradient-to-b from-blue-500/20 via-gray-100 to-white rounded-lg p-10 cursor-pointer hover:scale-105 duration-200">
                     <div className="relative h-16">
                         <div className="w-8 h-10 bg-blue-500 blur-lg absolute"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" 
@@ -43,11 +43,11 @@ export default function Research(){
                         </svg>
                     </div>
                     <p className="font-semibold text-primary text-3xl h-12">Phần mềm ứng dụng</p>
-                    <p className="font-semibold text-primary/60 text-lg max-w-[320px]">Chúng tôi phát triển phần mềm tùy chỉnh, từ ứng dụng di động đến 
+                    <p className="font-semibold text-primary/60 text-lg ">Chúng tôi phát triển phần mềm tùy chỉnh, từ ứng dụng di động đến 
                         hệ thống quản lý doanh nghiệp, đáp ứng nhu cầu đa dạng của khách hàng
                     </p>
                 </div>
-                <div className="bg-gradient-to-b from-blue-500/20 via-gray-100 to-white rounded-lg p-10 cursor-pointer hover:scale-105 duration-200">
+                <div className="flex-1 bg-gradient-to-b from-blue-500/20 via-gray-100 to-white rounded-lg p-10 cursor-pointer hover:scale-105 duration-200">
                     <div className="relative h-16">
                         <div className="w-8 h-10 bg-blue-500 blur-lg absolute"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" 
@@ -56,7 +56,7 @@ export default function Research(){
                         </svg>
                     </div>
                     <p className="font-semibold text-primary text-3xl h-12">Giáo dục và đào tạo</p>
-                    <p className="font-semibold text-primary/60 text-lg max-w-[320px]">Chúng tôi cung cấp các giải pháp giáo dục trực tuyến, bao gồm khóa 
+                    <p className="font-semibold text-primary/60 text-lg ">Chúng tôi cung cấp các giải pháp giáo dục trực tuyến, bao gồm khóa 
                         học, nền tảng học tập và công cụ hỗ trợ giảng dạy.
                     </p>
                 </div>
