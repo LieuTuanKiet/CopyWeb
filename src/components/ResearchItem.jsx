@@ -5,8 +5,8 @@ export default function ResearchItem(props){
                 <div className="w-8 h-10 bg-blue-500 blur-lg absolute"></div>
                 {props.icon}
             </div>
-            <p className="font-semibold text-primary text-3xl h-12">{props.title}</p>
-            <p className="font-semibold text-primary/60 text-lg ">{props.description}</p>
+            <p className="font-semibold text-primary text-2xl lg:text-3xl h-12">{props.title}</p>
+            <p className="font-semibold text-sm text-primary/60 lg:text-lg ">{props.description}</p>
         </div>
     )
 }

@@ -44,12 +44,12 @@ export default function Research(){
                         22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"></path><path d="M6.453 15h11.094"></path><path d="M8.5 2h7"></path>
                     </svg>
                 </div>
-                <p className="font-bold text-5xl bg-gradient-to-r from-blue-600 via-blue-500 to-pink-500 bg-clip-text text-transparent 
-                    h-16">Chuyên môn của chúng tôi
+                <p className="font-bold text-3xl h-24 w-5/6 mx-auto lg:w-full lg:mx-0 text-center lg:text-5xl bg-gradient-to-r from-blue-600 via-blue-500 to-pink-500 bg-clip-text text-transparent 
+                    lg:h-16">Chuyên môn của chúng tôi
                 </p>
-                <p className="text-primary/60 font-semibold text-lg h-20">Chúng tôi tập trung vào các lĩnh vực nghiên cứu tiên tiến</p>
+                <p className="w-5/6 mx-auto lg:w-full lg:mx-0 text-center text-primary/60 font-semibold lg:text-lg h-20">Chúng tôi tập trung vào các lĩnh vực nghiên cứu tiên tiến</p>
             </div>
-            <div className="grid grid-cols-3 container mx-auto gap-4">
+            <div className="grid grid-cols-1 w-11/12 m-y-8 lg:w-full lg:m-y-0 lg:grid-cols-3 container mx-auto gap-4">
                 {/*
                 <div className="flex-1 bg-gradient-to-b from-blue-500/20 via-gray-100 to-white rounded-lg p-10 cursor-pointer hover:scale-105 duration-200">
                     <div className="relative h-16">

@@ -9,13 +9,13 @@ import About from '../components/About'
 export default function HomePage(){
     return(
         <>
-        <Header />
-        <Home />
-        <Research />
-        <Project />
-        <Team />
-        <About />
-        <Footer />
+            <Header />
+            <Home />
+            <Research />
+            <Project />
+            <Team />
+            <About />
+            <Footer />
         </>
     )
 }

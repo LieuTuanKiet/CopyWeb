@@ -37,13 +37,13 @@ export default function Project(){
                         <path d="m7.5 4.27 9 5.15"></path>
                     </svg>
                 </div>
-                <p className="font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-pink-600 text-5xl bg-clip-text text-transparent 
+                <p className="text-3xl w-5/6 mx-auto text-center lg:w-full lg:mx-0 font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-pink-600 lg:text-5xl bg-clip-text text-transparent 
                 h-16">Dự án của chúng tôi</p>
-                <p className="font-semibold text-primary/60 text-lg h-16">Chúng tôi đã thực hiện nhiều dự án công nghệ và nghiên cứu, mang lại giá trị 
+                <p className="w-5/6 mx-auto text-center h-28 lg:w-full lg:mx-0 font-semibold text-primary/60 lg:text-lg lg:h-16">Chúng tôi đã thực hiện nhiều dự án công nghệ và nghiên cứu, mang lại giá trị 
                     cho cộng đồng và khách hàng.
                 </p>
             </div>
-            <div className="container mx-auto grid grid-cols-3 gap-x-6 mb-6">
+            <div className="container mx-auto grid grid-cols-1 w-11/12 lg:w-full lg:grid-cols-3 gap-6 mb-6">
                 {/*
                 <div className="w-1/3 bg-white border-gray-300 border-[1px] rounded-xl p-6 group">
                     <div className="mb-4 overflow-hidden rounded-xl">
