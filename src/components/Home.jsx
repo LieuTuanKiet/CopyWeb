@@ -20,7 +20,7 @@ export default function Home(){
                     </button>
                 </div>
             </div>
-            <div className="md:w-1/2 order-1 lg:order-2">
+            <div className="lg:w-1/2 order-1 lg:order-2">
                 <div className="w-11/12 relative mx-auto">
                     <img src={img} className="w-full max-h-[600px] h-full aspect-square object-cover rounded-2xl"></img>
                     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-x-4">
