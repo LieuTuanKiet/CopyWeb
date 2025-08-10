@@ -44,14 +44,14 @@ export default function Team(){
                         <path d="M7 21H5c-1.1 0-2-.9-2-2v-2"></path><rect width="7" height="5" x="7" y="7" rx="1"></rect><rect width="7" height="5" x="10" y="12" rx="1"></rect>
                     </svg>
                 </div>
-                <p className="bg-gradient-to-tr from-blue-600 via-blue-500 to-pink-600 bg-clip-text text-transparent font-bold text-5xl h-16">
+                <p className="text-3xl text-center bg-gradient-to-tr from-blue-600 via-blue-500 to-pink-600 bg-clip-text text-transparent font-bold lg:text-5xl h-12 lg:h-16">
                     Đội ngũ chuyên gia
                 </p>
-                <p className="font-semibold text-primary/60 text-lg">Chúng tôi là một đội ngũ chuyên gia với nhiều năm kinh nghiệm trong lĩnh vực 
+                <p className="w-5/6 mx-auto text-center lg:w-full lg:mx-0 font-semibold text-primary/60 lg:text-lg">Chúng tôi là một đội ngũ chuyên gia với nhiều năm kinh nghiệm trong lĩnh vực 
                     công nghệ và nghiên cứu.
                 </p>
             </div>
-            <div className="grid grid-cols-3 container mx-auto w-full max-w-[900px] gap-x-16 gap-y-24">
+            <div className="grid grid-cols-2 w-11/12 lg:grid-cols-3 container mx-auto lg:w-full max-w-[900px] gap-x-16 gap-y-24">
                 {/*
                 <div className="flex flex-col justify-center items-center">
                     <div className="rounded-xl overflow-hidden mb-2">
@@ -98,17 +98,17 @@ export default function Team(){
                     />
                 ))}
                 <div className="flex justify-center items-center">
-                    <div className="relative bg-gray-100 min-w-[200px] max-w-[200px] min-h-[200px] -mt-16 rounded-xl hover:bg-gray-200 cursor-pointer duration-200">
-                        <img src={Random1} className="absolute aspect-square object-contain w-full h-full max-w-[40px] max-h-[40px] left-[75px] top-[75px] 
+                    <div className="relative bg-gray-100 min-h-[170px] min-w-[160px] lg:min-w-[200px] lg:max-w-[200px] lg:min-h-[200px] lg:max-h-[200px] -mt-16 rounded-xl hover:bg-gray-200 cursor-pointer duration-200">
+                        <img src={Random1} className="absolute aspect-square object-contain w-full h-full max-w-[40px] max-h-[40px] left-[60px] lg:left-[75px] top-[75px] 
                             -translate-x-1/2 -translate-y-1/2 rounded-xl border-white border-2">
                         </img>
-                        <img src={Random2} className="absolute aspect-square object-contain w-full h-full max-w-[40px] max-h-[40px] left-[100px] top-[75px] 
+                        <img src={Random2} className="absolute aspect-square object-contain w-full h-full max-w-[40px] max-h-[40px] left-[85px] lg:left-[100px] top-[75px] 
                             -translate-x-1/2 -translate-y-1/2 rounded-xl border-white border-2">
                         </img>
-                        <div className="absolute w-10 h-10 bg-black border-white border-2 rounded-xl left-[125px] top-[75px] -translate-x-1/2 
+                        <div className="absolute w-10 h-10 bg-black border-white border-2 rounded-xl lg:left-[125px] top-[75px] left-[110px] -translate-x-1/2 
                             -translate-y-1/2 text-white items-center justify-center flex hover:bg-gray-500">+2
                         </div>
-                        <p className="absolute left-[100px] top-[125px] -translate-x-1/2 -translate-y-1/2 text-primary/50 font-semibold text-lg">Tất cả</p>
+                        <p className="absolute left-[85px] lg:left-[100px] top-[125px] -translate-x-1/2 -translate-y-1/2 text-primary/50 font-semibold text-lg">Tất cả</p>
                     </div>
                 </div>
             </div>

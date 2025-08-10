@@ -8,7 +8,7 @@ import About from '../components/About'
 
 export default function HomePage(){
     return(
-        <>
+        <div className="overflow-hidden">
             <Header />
             <Home />
             <Research />
@@ -16,6 +16,6 @@ export default function HomePage(){
             <Team />
             <About />
             <Footer />
-        </>
+        </div>
     )
 }
