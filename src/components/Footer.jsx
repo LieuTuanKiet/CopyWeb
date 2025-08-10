@@ -1,4 +1,5 @@
 import logo from '../assets/logo.svg'
+import { Link } from 'react-router'
 
 export default function Footer(){
     return (
@@ -10,10 +11,10 @@ export default function Footer(){
                 </a>
                 <ul className="flex flex-col lg:flex-row text-center font-semibold gap-x-4 container mx-auto">
                     <div className="flex justify-center gap-4 lg:justify-normal">
-                        <li><a href="" className="text-primary/60 hover:text-black cursor-pointer duration-200">Nghiên cứu</a></li>
-                        <li><a href="" className="text-primary/60 hover:text-black cursor-pointer duration-200">Dự án</a></li>
-                        <li><a href="" className="text-primary/60 hover:text-black cursor-pointer duration-200">Thành viên</a></li>
-                        <li><a href="" className="text-primary/60 hover:text-black cursor-pointer duration-200">Liên hệ</a></li>
+                        <li><Link to="/Research" className="text-primary/60 hover:text-black cursor-pointer duration-200">Nghiên cứu</Link></li>
+                        <li><Link to="/Project" className="text-primary/60 hover:text-black cursor-pointer duration-200">Dự án</Link></li>
+                        <li><Link to="/Team" className="text-primary/60 hover:text-black cursor-pointer duration-200">Thành viên</Link></li>
+                        <li><Link to="/Contact" className="text-primary/60 hover:text-black cursor-pointer duration-200">Liên hệ</Link></li>
                     </div>
                     <li><span className="text-primary/60">© 2025 AIAI. All rights reserved.</span></li>
                 </ul>

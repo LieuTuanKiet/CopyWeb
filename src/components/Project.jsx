@@ -2,29 +2,34 @@ import froggit from '../assets/froggit.webp'
 import whale from '../assets/whale.webp'
 import vue from '../assets/vue.webp'
 import ProjectItem from './ProjectItem'
+import { Link, useLocation } from 'react-router'
 
 const projects = [
     {
         "img": froggit,
         "title": "Du An 1",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fugiat perferendis hic sequi consequatur sed nulla, officia sunt aliquid assumendam. Quis!",
+        "link": "/Project1",
         "type": "AI"
     },
     {
         "img": whale,
         "title": "Du An 2",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fugiat perferendis hic sequi consequatur sed nulla, officia sunt aliquid assumendam. Quis!",
+        "link": "/Project2",
         "type": "Application"
     },
     {
         "img": vue,
         "title": "Du An 3",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fugiat perferendis hic sequi consequatur sed nulla, officia sunt aliquid assumendam. Quis!",
+        "link": "/Project3",
         "type": "Website"
     },
 ]
 
 export default function Project(){
+    const location = useLocation();
     return(
         <div className="my-16 pt-32">
             <div className="flex flex-col justify-center items-center">
@@ -91,13 +96,14 @@ export default function Project(){
                         img={project.img}
                         title={project.title}
                         description={project.description}
+                        link={project.link}
                         type={project.type}
                     />
                 ))}
             </div>
             <div className="container mx-auto flex justify-center items-center">
-                <button className="bg-blue-500 text-white rounded-md px-6 py-2 font-bold text-lg shadow-blue-500/80 shadow-lg hover:scale-95 
-                    duration-200">Tất cả dự án
+                <button className={`bg-blue-500 text-white rounded-md px-6 py-2 font-bold text-lg shadow-blue-500/80 shadow-lg hover:scale-95 
+                    duration-200 ${location.pathname==="/Project"? "hidden" : ""} `}><Link to="/Project">Tất cả dự án</Link>
                 </button>
             </div>
         </div>
