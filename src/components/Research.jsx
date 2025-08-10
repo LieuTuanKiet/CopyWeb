@@ -34,7 +34,7 @@ const researchs = [
 
 export default function Research(){
     return(
-        <div className="my-16">
+        <div id="research" className="my-16">
             <div className="flex flex-col items-center justify-center h-full">
                 <div className="relative h-20">
                     <div className="bg-pink-600/80 blur-lg w-8 h-10 absolute left-1/2 -translate-x-1/2"></div>

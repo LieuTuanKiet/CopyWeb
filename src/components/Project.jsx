@@ -31,7 +31,7 @@ const projects = [
 export default function Project(){
     const location = useLocation();
     return(
-        <div className="my-16 pt-32">
+        <div id="project" className="my-16 pt-32">
             <div className="flex flex-col justify-center items-center">
                 <div className="relative h-16">
                     <div className="bg-pink-600 blur-lg absolute w-8 h-10"></div>

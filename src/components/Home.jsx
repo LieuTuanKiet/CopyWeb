@@ -12,12 +12,14 @@ export default function Home(){
                     Crush your backlog</span> with us AI engineering team.
                 </p>
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-y-4 lg:gap-y-0 lg:justify-normal">
-                    <button className="w-5/6 lg:w-48 rounded-lg bg-blue-500 text-white font-semibold p-2 shadow-lg shadow-blue-500/50 
-                        hover:scale-95 duration-200">Dự án của chúng tôi
-                    </button>
-                    <button className="w-5/6 lg:w-44 rounded-lg text-pink-600 font-semibold border-solid border-pink-600 border-2 p-2 lg:ml-6 
-                        hover:scale-95 duration-200">Tìm hiểu thêm
-                    </button>
+                    <a href="#project" className="w-5/6 lg:w-48 rounded-lg bg-blue-500 text-white font-semibold p-2 shadow-lg shadow-blue-500/50 
+                            hover:scale-95 duration-200 text-center">
+                        Dự án của chúng tôi
+                    </a>
+                    <a href="#research" className="w-5/6 lg:w-44 rounded-lg text-pink-600 font-semibold border-solid border-pink-600 border-2 p-2 lg:ml-6 
+                            hover:scale-95 duration-200 text-center">
+                        Tìm hiểu thêm
+                    </a>
                 </div>
             </div>
             <div className="lg:w-1/2 order-1 lg:order-2">

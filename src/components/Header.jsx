@@ -1,5 +1,6 @@
 import logo from '../assets/logo.svg'
 import HeaderButton from './HeaderButton'
+import MobileHeaderButton from './MobileHeaderButton'
 import { Link } from 'react-router'
 
 export default function Header(){
@@ -28,11 +29,8 @@ export default function Header(){
                             </path></svg> Liên hệ
                         </button>
                     </Link>
-                    <div className="flex lg:hidden items-center px-4">
-                        <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" 
-                            strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-menu text-primary/50 block lg:hidden" aria-hidden="true"><path d="M4 12h16">
-                            </path><path d="M4 18h16"></path><path d="M4 6h16"></path></svg>
-                        </button>
+                    <div className="flex lg:hidden items-center px-4 relative group">
+                        <MobileHeaderButton />
                     </div>
                 </div>
                 
