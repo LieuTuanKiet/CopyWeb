@@ -98,17 +98,17 @@ export default function Team(){
                     />
                 ))}
                 <div className="flex justify-center items-center">
-                    <div className="relative bg-gray-100 min-h-[170px] min-w-[160px] lg:min-w-[200px] lg:max-w-[200px] lg:min-h-[200px] lg:max-h-[200px] -mt-16 rounded-xl hover:bg-gray-200 cursor-pointer duration-200">
-                        <img src={Random1} className="absolute aspect-square object-contain w-full h-full max-w-[40px] max-h-[40px] left-[60px] lg:left-[75px] top-[75px] 
+                    <div className="relative bg-gray-100 min-h-[170px] min-w-[160px] sm:min-w-[190px] lg:min-w-[200px] max-w-[200px] sm:min-h-[200px] max-h-[200px] -mt-16 rounded-xl hover:bg-gray-200 cursor-pointer duration-200">
+                        <img src={Random1} className="absolute aspect-square object-contain w-full h-full max-w-[40px] max-h-[40px] left-[60px] sm:left-[70px] lg:left-[75px] top-[75px] 
                             -translate-x-1/2 -translate-y-1/2 rounded-xl border-white border-2">
                         </img>
-                        <img src={Random2} className="absolute aspect-square object-contain w-full h-full max-w-[40px] max-h-[40px] left-[85px] lg:left-[100px] top-[75px] 
+                        <img src={Random2} className="absolute aspect-square object-contain w-full h-full max-w-[40px] max-h-[40px] left-[85px] sm:left-[95px] lg:left-[100px] top-[75px] 
                             -translate-x-1/2 -translate-y-1/2 rounded-xl border-white border-2">
                         </img>
-                        <div className="absolute w-10 h-10 bg-black border-white border-2 rounded-xl lg:left-[125px] top-[75px] left-[110px] -translate-x-1/2 
+                        <div className="absolute w-10 h-10 bg-black border-white border-2 rounded-xl lg:left-[125px] top-[75px] sm:left-[120px] left-[110px] -translate-x-1/2 
                             -translate-y-1/2 text-white items-center justify-center flex hover:bg-gray-500">+2
                         </div>
-                        <p className="absolute left-[85px] lg:left-[100px] top-[125px] -translate-x-1/2 -translate-y-1/2 text-primary/50 font-semibold text-lg">Tất cả</p>
+                        <p className="absolute left-[85px] sm:left-[90px] lg:left-[100px] top-[125px] -translate-x-1/2 -translate-y-1/2 text-primary/50 font-semibold text-lg">Tất cả</p>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ export default function Home(){
         <div className="grid grid-cols-1 mt-20 overflow-hidden lg:flex lg:container lg:mx-auto lg:justify-center lg:items-center lg:mt-56 h-full pb-20">
             <div className="md:w-1/2 order-2 lg:order-1 mx-auto">
                 <p className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-pink-500 bg-clip-text 
-                    text-transparent w-fit h-12 lg:h-14 mx-auto lg:mx-0">Đổi mới - Sáng tạo
+                    text-transparent w-fit whitespace-nowrap h-14 mx-auto lg:mx-0">Đổi mới - Sáng tạo
                 </p>
                 <p className="text-4xl lg:text-5xl text-primary w-fit h-14 mx-auto lg:mx-0">Vươn tới tương lai</p>
                 <p className="text-lg lg:text-xl text-primary/40 h-24 lg:h-16 mx-auto w-5/6 lg:w-full lg:mx-0"><span className="text-2xl font-semibold text-primary">
